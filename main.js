@@ -10,7 +10,7 @@ atualiza();
 function envia(evento){
     evento.preventDefault();
     console.log('Formulário enviado!');
-    estado++;
+    store.estado++;
     atualiza();
 }
 
